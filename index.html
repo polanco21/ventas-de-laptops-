@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Laptops Usadas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Laptops Usadas en Venta</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a nuestra tienda de laptops usadas</h2>
+        <p>Encuentra las mejores ofertas en laptops usadas, completamente revisadas y listas para usar.</p>
+    </section>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="producto">
+            <img src="laptop1.jpg" alt="Laptop 1">
+            <h3>Laptop Dell Inspiron 15</h3>
+            <p>Procesador Intel i5, 8GB RAM, 256GB SSD</p>
+            <p class="precio">$300</p>
+            <button onclick="mostrarAlerta()">Comprar</button>
+        </div>
+        <div class="producto">
+            <img src="laptop2.jpg" alt="Laptop 2">
+            <h3>Laptop HP Pavilion 14</h3>
+            <p>Procesador AMD Ryzen 5, 16GB RAM, 512GB SSD</p>
+            <p class="precio">$450</p>
+            <button onclick="mostrarAlerta()">Comprar</button>
+        </div>
+        <div class="producto">
+            <img src="laptop3.jpg" alt="Laptop 3">
+            <h3>Laptop Lenovo ThinkPad X1</h3>
+            <p>Procesador Intel i7, 16GB RAM, 1TB SSD</p>
+            <p class="precio">$600</p>
+            <button onclick="mostrarAlerta()">Comprar</button>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Venta de Laptops Usadas. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
